@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+  padding: 10px 20px;
+}
+
+.logo h1{
+  color: black;
+}
+
+.main-container{
+  min-height: 84vh;
+  padding: 10px 20px;
+}
+
+
+.section{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.section h2{
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  height: 50px;
+  border-radius: 2px;
+  margin-left: 44px;
+  overflow: hidden;
+  transition: all ease 0.5s;
+}
+
+.container .go{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6px;
+  transition: all ease 0.5s;
+}
+
+.container .go a{
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  display: none;
+}
+
+.container .info{
+  width: 200px;
+  background-color: black;
+  padding: 5px;
+  transition: all ease 0.5s;
+}
+
+.container .info h3{
+  font-size: 20px;
+  margin: 8.5px 5px;
+  
+  transition: all ease 0.4s;
+}
+
+.container .info p{
+  font-size: 10px;
+  display: none;
+  color: #fff;
+  opacity: 0.7;
+}
+
+#fonts h2{
+  color: #00aee5;
+}
+#fonts .container .go{
+  background-color: #00aee5;
+}
+#fonts .info h3{
+  color: #d8f6ff;
+}
+
+#images h2{
+  color: #14b789;
+}
+#images .container .go{
+  background-color: #14b789;
+}
+#images .info h3{
+  color: #d5f8ef;
+}
+
+#colors h2{
+  color: #e50087;
+}
+#colors .container .go{
+  background-color: #e50087;
+}
+#colors .info h3{
+  color: #ffe5f4;
+}
+
+#illustration h2{
+  color: #802fde;
+}
+#illustration .container .go{
+  background-color: #802fde;
+}
+#illustration .info h3{
+  color: #e8e2f7;
+}
+
+#icons h2{
+  color: #daab00;
+}
+#icons .container .go{
+  background-color: #daab00;
+}
+#icons .info h3{
+  color: #fdf3ce;
+}
+
+.container:hover .go{
+  width: 50px;
+}
+
+.container:hover .go a{
+  display: block;
+  cursor: pointer;
+}
+
+.container:hover .info h3{
+  margin: 0px;
+  font-size: 16px;
+}
+
+.container:hover .info p{
+  display: block;
+}
+
+.container:hover .info{
+  padding: 5px 8px;
+}
+
+.container:hover {
+  margin: 0px;
+}
+
+footer{
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+footer p{
+  font: 14px;
+  opacity: 0.7;
+}
+
+footer h4{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  background: linear-gradient(to right bottom, #e6254b, rgb(117, 20, 197));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

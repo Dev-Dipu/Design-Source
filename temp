@@ -1,0 +1,22 @@
+colors used in website
+
+#000
+
+#d8f6ff
+#00aee5
+
+#d5f8ef
+#14b789
+
+#ffe5f4
+#e50087
+
+#e8e2f7
+#802fde
+
+#fdf3ce
+#daab00
+
+temp color
+
+background: linear-gradient(to right bottom, crimson, rgb(117, 20, 197));
